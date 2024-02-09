@@ -180,7 +180,7 @@ class Bill_App:
                     wb.save("Template.xlsx")
 
                     source = "Template.xlsx"
-                    destination = r"C:\Users\HP\Desktop\sp\Python\Excel_Project\Records_Excel"
+                    destination = r"C:\Users\HP\Documents\GitHub\Excel_Exporter\Records_Excel"
                     new_name = sup + ".xlsx"
 
                     def copy_excel_file(source, destination, new_name):
@@ -413,8 +413,8 @@ class Bill_App:
            btn_frame1=Frame(frame_Mel1,bd=7,relief=GROOVE)
            btn_frame1.place(x=65,y=230,width=400,height=90)
            
-           sub_btn1=Button(btn_frame1,text="Previous",command= enter_data,bg="cadetblue",fg="white",bd=5,pady=12,width=11,font="arial 12 bold").grid(row=0,column=0,padx=40,pady=10)
-           next_btn1=Button(btn_frame1,text="Next",command=next_frame,bg="cadetblue",fg="white",bd=5,pady=12,width=11,font="arial 12 bold").grid(row=0,column=1,padx=10,pady=10)
+           
+           next_btn1=Button(btn_frame1,text="Next",command=next_frame,bg="cadetblue",fg="white",bd=5,pady=12,width=11,font="arial 12 bold").grid(row=0,column=0,padx=120,pady=10)
 
           
           
