@@ -1,6 +1,5 @@
 # 🔧 Automated Induction Furnace Data Export and Management System
 
-[![Source Code](https://img.shields.io/badge/View%20Source-GitHub-blue?logo=github)](https://github.com/Sagar-vpatil)
 
 ## 📌 Project Overview
 
@@ -38,11 +37,6 @@ This system is built using **Python Tkinter** for the GUI and **SQLite3** as the
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots here if available, e.g., login screen, data entry form, export screen)*
-
----
 
 ## 📦 Installation & Setup
 
